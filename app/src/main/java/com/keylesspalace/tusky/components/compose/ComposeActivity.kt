@@ -394,7 +394,7 @@ class ComposeActivity :
             updateVisibleCharactersLeft()
         }
 
-        // work around Android platform bug -> https://issuetracker.google.com/issues/67102093
+        // workaround Android platform bug -> https://issuetracker.google.com/issues/67102093
         if (Build.VERSION.SDK_INT == Build.VERSION_CODES.O ||
             Build.VERSION.SDK_INT == Build.VERSION_CODES.O_MR1
         ) {
